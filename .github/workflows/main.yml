@@ -12,7 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: actions/openscenario.ci.test@v2
+    - name: OpenSCENARIO checker action
+      uses: ahege/openscenario.ci.test@v2
       with:
         CONF_FILE: conf/conf.yml
         BASE_DIR: targetFolder
