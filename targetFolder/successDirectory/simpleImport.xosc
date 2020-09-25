@@ -15,6 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *-->
+
  <OpenSCENARIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../OpenSCENARIO.xsd">
   <FileHeader revMajor="0" revMinor="9" date="2017-06-09T10:00:00" description="Cut-in" author="SimS"/>
   <ParameterDeclarations>
