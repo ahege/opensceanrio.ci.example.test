@@ -21,13 +21,13 @@
   <ParameterDeclarations>
     <ParameterDeclaration name="$HostVehicle" parameterType="string" value="car_white"/>
     <ParameterDeclaration name="$TargetVehicle" parameterType="string" value="car_red"/>
-    <ParameterDeclaration name="$EgoStartS" parameterType="double" value="50"/>
+    <ParameterDeclaration name="$EgoStartS" parameterType="error" value="50"/>
     <ParameterDeclaration name="$HeadwayTime_LaneChange" parameterType="double" value="0.4"/>
     <ParameterDeclaration name="$HeadwayTime_Brake" parameterType="double" value="1.0"/>
   </ParameterDeclarations>
   <CatalogLocations>
     <VehicleCatalog>
-      <Directory path="./Catalogs"/>
+      <Directory path="./Catalog"/>
     </VehicleCatalog>
     <ControllerCatalog>
       <Directory path="./Catalogs"/>
