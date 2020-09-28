@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: OpenSCENARIO checker action
-      uses: ahege/openscenario.ci.test@v3.0.2
+      uses: ahege/openscenario.ci.test@v3.0.3
       with:
         CONF_FILE: conf/conf.yml
         BASE_DIR: targetFolder
